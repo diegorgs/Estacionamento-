@@ -67,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <div class="row">
                         <form class="row g-3" method="POST">
                             <div class="col-md-2">
-                                <label class="form-label">Placa</label>
+                                <label class="form-label">Digite a placa sem o "-"</label>
                                 <input type="text" name="placa" class="form-control">
                             </div>
                             <div class="col-md-3">
